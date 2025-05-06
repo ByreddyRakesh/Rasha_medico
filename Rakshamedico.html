@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Patient Login - CityCare</title>
+  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login - Raskha Medico</title>
+  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome - Raksha Medico</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<section class="login-container">
+    <h2>Welcome to Raksha Medico</h2>
+    <p>Your information has been received.</p>
+    <p>We will contact you shortly to schedule your appointment.</p>
+  </section>
+<div class="login-container">
+    <h2>Patient Login</h2>
+    <form action="dashboard.html" method="get">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" />
+
+      <button type="submit">Continue</button>
+    </form>
+  </div>
+<div class="login-container">
+    <h2>Login</h2>
+    <form action="dashboard.html" method="post">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <header>
+    <h1>Raksha Medico</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#doctors">Doctors</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Raksha Medico is dedicated to providing world-class medical services with compassion and care.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>24/7 Emergency</li>
+      <li>Cardiology</li>
+      <li>Orthopedics</li>
+      <li>Pediatrics</li>
+      <li>Radiology</li>
+    </ul>
+  </section>
+
+  <section id="doctors">
+    <h2>Meet Our Doctors</h2>
+    <p>Our team includes highly experienced professionals in various specialties.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@citycarehospital.com</p>
+    <p>Phone: +1-234-567-8900</p>
+    <p>Address: 123 Health St, Wellness City</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Raksha Medico. All rights reserved.</p>
+  </footer>
+</body>
+</html>
